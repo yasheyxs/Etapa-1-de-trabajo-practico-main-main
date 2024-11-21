@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1001,
+        "id_usuario": 1,
+        "fecha": "2024-08-20",
+        "total": 2500,
+        "direccion": "FakeStreet",
+        "productos": [
+            {
+                "id_producto": 101,
+                "cantidad": 1,
+                "precio_unitario": 1000
+            },
+            {
+                "id_producto": 102,
+                "cantidad": 1,
+                "precio_unitario": 1500
+            }
+        ]
+    },
+    {
+        "id": 1002,
+        "id_usuario": 2,
+        "fecha": "2024-08-20",
+        "total": 1500,
+        "direccion": "FakeStreet",
+        "productos": [
+            {
+                "id_producto": 102,
+                "cantidad": 1,
+                "precio_unitario": 1500
+            }
+        ]
+    },
+    {
+        "id": 1003,
+        "id_usuario": 4,
+        "fecha": "2024-08-20",
+        "total": 2000,
+        "direccion": "FakeStreet",
+        "productos": [
+            {
+                "id_producto": 104,
+                "cantidad": 1,
+                "precio_unitario": 2000
+            }
+        ]
+    }
+]

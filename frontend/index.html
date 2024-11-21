@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jugueteria</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/frontend/scss/output.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap">    
+</head>
+<body>
+    <header>
+        <a href="/frontend/html/carrito.html" class="navbar-link">Carrito</a>
+        <select id="categoryFilter">
+            <option value="Todos">Todos</option>
+            <option value="Peluches">Peluches</option>
+            <option value="Autitos">Autitos</option>
+            <option value="Sorpresas">Sorpresas</option>
+        </select>
+    </header>
+
+    <section class="juguetes" id="juguetes">
+        <h1 class="heading"> Te ofrecemos nuestros juguetes <span>mas divertidos</span> </h1>
+        <div class="box-container" id="productcontainerJug"></div>
+    </section>
+
+
+    <script type="module" src ="/index.js"></script>
+    <script src="/frontend/script.js"></script>
+    <script src="/frontend/cartcontroller.js"></script>
+    <script src="/frontend/productcontroller.js"></script>
+    <script src="/frontend/stepper.js"></script>
+    <script>
+        renderProducts("productcontainerJug", "Juguetes");
+    </script>
+</body>
+</html>
