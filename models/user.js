@@ -1,7 +1,6 @@
 import mongoose from 'mongoose';
 import bcrypt from 'bcrypt';
 
-// Definir el esquema del usuario
 const userSchema = new mongoose.Schema({
     name: { type: String, required: true },
     lastname: { type: String, required: true },

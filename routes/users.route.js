@@ -7,8 +7,8 @@ const router = Router();
 const secretKey = process.env.JWT_SECRET || 'clave123'; // Cambia la clave en todos los archivos
 
 
-// Obtener todos los usuarios
-router.get('/getu', async (req, res) => {
+// Obtener todos los usuarios (funciona)
+router.get('/getus', async (req, res) => {
     try {
         const usuarios = await User.find();
         res.json(usuarios);
@@ -17,8 +17,8 @@ router.get('/getu', async (req, res) => {
     }
 });
 
-// Obtener un usuario por ID
-router.get('/:id', async (req, res) => {
+// Obtener un usuario por ID (funciona)
+router.get('/getu/:id', async (req, res) => {
     try {
         const usuario = await User.findById(req.params.id);
         usuario ? res.json(usuario) : res.status(404).send('Usuario no encontrado');
@@ -27,7 +27,7 @@ router.get('/:id', async (req, res) => {
     }
 });
 
-// Crear un usuario
+// Crear un usuario (funciona)
 router.post('/register', async (req, res) => {
     const { name, lastname, email, password } = req.body;
     try {
@@ -47,8 +47,8 @@ router.post('/register', async (req, res) => {
     }
 });
 
-// Actualizar un usuario
-router.put('/:id', async (req, res) => {
+// Actualizar un usuario (funciona)
+router.put('/updateu/:id', async (req, res) => {
     try {
         const updatedUser = await User.findByIdAndUpdate(req.params.id, req.body, { new: true });
         updatedUser ? res.send('Usuario actualizado') : res.status(404).send('Usuario no encontrado');
@@ -57,8 +57,8 @@ router.put('/:id', async (req, res) => {
     }
 });
 
-// Eliminar un usuario
-router.delete('/:id', async (req, res) => {
+// Eliminar un usuario (funciona)
+router.delete('/deleteu/:id', async (req, res) => {
     try {
         const deletedUser = await User.findByIdAndDelete(req.params.id);
         deletedUser ? res.send('Usuario eliminado') : res.status(404).send('Usuario no encontrado');
@@ -67,7 +67,7 @@ router.delete('/:id', async (req, res) => {
     }
 });
 
-// Ruta para login
+ // login (funciona)
 router.post('/login', async (req, res) => {
     const { email, password } = req.body;
 

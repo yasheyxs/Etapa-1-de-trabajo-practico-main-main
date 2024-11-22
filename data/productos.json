@@ -8,8 +8,7 @@
                     "name": "Muñeca Genshin Impact",
                     "price": 1500,
                     "image": "/storage/furinadoll.webp",
-                    "description": "Muñeca de peluche Furina Genshin Impact",
-                    "available": true
+                    "description": "Muñeca de peluche Furina Genshin Impact"
                 }
             ]
         },
@@ -21,8 +20,7 @@
                     "name": "Camion Juguete",
                     "price": 1000,
                     "image": "/storage/camionjuguete.webp",
-                    "description": "Camion de juguete rojo a control remoto apto para niños",
-                    "available": true
+                    "description": "Camion de juguete rojo a control remoto apto para niños"
                 }
             ]
         },
@@ -34,24 +32,21 @@
                     "name": "Sorpresa Toys Story",
                     "price": 2000,
                     "image": "/storage/sorpresa1.webp",
-                    "description": "Caja de juguetes sorpresa Disney",
-                    "available": true
+                    "description": "Caja de juguetes sorpresa Disney"
                 },
                 {
                     "id": 104,
                     "name": "Sorpresa Despicable Me",
                     "price": 2000,
                     "image": "/storage/sorpresa2.webp",
-                    "description": "Caja de juguetes sorpresa Despicable Me",
-                    "available": true
+                    "description": "Caja de juguetes sorpresa Despicable Me"
                 },
                 {
                     "id": 105,
                     "name": "Sorpresa Gatitos",
                     "price": 2000,
                     "image": "/storage/sorpresa3.webp",
-                    "description": "Caja de juguetes sorpresa Gatitos",
-                    "available": true
+                    "description": "Caja de juguetes sorpresa Gatitos"
                 }
             ]
         }

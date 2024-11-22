@@ -4,39 +4,34 @@
     "nombre": "Jane",
     "apellido": "Doe",
     "email": "jane.doe@example.com",
-    "contraseña": "123",
-    "activo": true
+    "contraseña": "123"
   },
   {
     "id": 2,
     "nombre": "John",
     "apellido": "Doe",
     "email": "john.doe@example.com",
-    "contraseña": "123",
-    "activo": true
+    "contraseña": "123"
   },
   {
     "id": 3,
     "nombre": "Emily",
     "apellido": "Smith",
     "email": "emily.smith@example.com",
-    "contraseña": "123",
-    "activo": false
+    "contraseña": "123"
   },
   {
     "id": 4,
     "nombre": "Carla",
     "apellido": "Cabrera",
     "email": "carla.cabrera@example.com",
-    "contraseña": "123",
-    "activo": false
+    "contraseña": "123"
   },
   {
     "id": 5,
     "nombre": "Abril",
     "apellido": "Gribaudo",
     "email": "abril.gribaudo@example.com",
-    "contraseña": "123",
-    "activo": true
+    "contraseña": "123"
   }
 ]

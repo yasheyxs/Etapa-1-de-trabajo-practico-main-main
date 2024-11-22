@@ -3,7 +3,7 @@ import Product from '../models/product.js';
 
 const router = Router();
 
-// Obtener todos los productos
+// Obtener todos los productos (funciona)
 router.get('/getp', async (req, res) => {
     try {
         const products = await Product.find();
@@ -13,7 +13,7 @@ router.get('/getp', async (req, res) => {
     }
 });
 
-// Crear un nuevo producto
+// Crear un nuevo producto (funciona)
 router.post('/createp', async (req, res) => {
     try {
         const newProduct = new Product(req.body);

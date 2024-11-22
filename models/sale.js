@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const saleSchema = new mongoose.Schema({
-    userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+    userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
     products: [
         {
             productId: { type: mongoose.Schema.Types.ObjectId, ref: 'Product', required: true },
@@ -9,7 +9,6 @@ const saleSchema = new mongoose.Schema({
         },
     ],
     totalAmount: { type: Number, required: true },
-    date: { type: Date, default: Date.now },
 });
 
 export default mongoose.model('Sale', saleSchema);
