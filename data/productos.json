@@ -9,6 +9,20 @@
                     "price": 1500,
                     "image": "/storage/furinadoll.webp",
                     "description": "Muñeca de peluche Furina Genshin Impact"
+                },
+                {
+                    "id": 106,
+                    "name": "Teddy Bear",
+                    "price": 5000,
+                    "image": "/storage/teddybear.webp",
+                    "description": "Suavecito y esponjoso, tu nuevo mejor amigo"
+                },
+                {
+                    "id": 107,
+                    "name": "Teddy Bear Gigante",
+                    "price": 10000,
+                    "image": "/storage/teddybearg.webp",
+                    "description": "Ahora nuestro mejor amigo Teddy viene en version gigante"
                 }
             ]
         },
@@ -21,6 +35,20 @@
                     "price": 1000,
                     "image": "/storage/camionjuguete.webp",
                     "description": "Camion de juguete rojo a control remoto apto para niños"
+                },
+                {
+                    "id": 108,
+                    "name": "Autito Leon",
+                    "price": 3000,
+                    "image": "/storage/autitoleon.webp",
+                    "description": "El mas tierno y funcional"
+                },
+                {
+                    "id": 109,
+                    "name": "Dinocar",
+                    "price": 2000,
+                    "image": "/storage/dinocar.webp",
+                    "description": "Aterrador y listo para la accion"
                 }
             ]
         },
